@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~nouislider/distribute/nouislider.min.css";
+body {
+    background: #1985A1;
+    margin:0px;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+}
+.noUi-value {
+    position: absolute;
+    white-space: nowrap;
+    margin-top: 5px!important;
+    font-size: 13px!important;
+    text-align: center;
+}
+.noUi-connect {
+    background: #337ab7;
+}
+.noUi-base {
+    background: #1985A1;
+}
+h1 {
+    /*background: skyblue;*/
+    padding-top:10px;
+    padding-bottom:10px;
+    width: 100%;
+    text-align: center;
+    float:left;
+    margin:0px;
+}
+.noUi-handle {
+    background: cadetblue;
+}
