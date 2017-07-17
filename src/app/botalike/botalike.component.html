@@ -1,0 +1,27 @@
+<div class="container-bot">
+  <div class="bot">
+    <img class="bot-image" src='assets/robot (1).svg' title='Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>' />
+    <div class="messages">
+      <div *ngIf="text" [@flyInOut]="'in'" class="animation">
+        <div class="bot-box">
+          <div *ngIf="!showText" class="typing-container">
+            <div class="typing-indicator"></div>
+            <div class="typing-indicator"></div>
+            <div class="typing-indicator"></div>
+          </div>
+          <div *ngIf="showText" class="showText"> {{ showText }}</div>
+        </div>
+      </div>
+      <!--<div *ngIf="message2" [@flyInOut]="'in'" class="animation">
+        <div class="bot-box">
+          <div *ngIf="!showText" class="typing-container">
+            <div class="typing-indicator"></div>
+            <div class="typing-indicator"></div>
+            <div class="typing-indicator"></div>
+          </div>
+          <div *ngIf="showText2" class="showText"> {{ showText2 }}</div>
+        </div>
+      </div>-->
+    </div>
+  </div>
+</div>

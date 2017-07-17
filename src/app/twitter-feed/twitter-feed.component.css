@@ -1,0 +1,173 @@
+.section {
+    float: left;
+    width: 450px;
+    text-align: center;
+    
+}
+.section2 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-right: 30px;
+}
+.tweet {
+    /*width: 500px;
+    height: 200px;*/
+    height: 100%;
+    background: #DCDCDD;
+    margin: 10px;
+    float: left;
+}
+.tweet2 {
+    /*width: 500px;
+    height: 200px;*/
+    height: 700px;
+    background: #DCDCDD;
+    margin: 10px;
+    float: left;
+}
+:host {
+  display: block;
+  padding: 0 16px;
+  color: #292f33;
+  font-size: 14px;
+  line-height: 18px;
+}
+.user {
+  float:left;
+  margin-top:5px;
+}
+.name {
+  float: left;
+  font-weight: bold;
+  color: #292f33;
+  font-size: 14px;
+  line-height: 18px;
+  margin-right: 5px;
+}
+.username {
+    font-size: 18px;
+    font-weight: bold;
+}
+.tweet {
+  width: 428px;
+  height: 80px;
+  padding: 5px;
+  border-top: 1px solid #E5E5E5;
+  border-left: 1px solid #E5E5E5;
+  border-right: 1px solid #E5E5E5;
+  background-color:#fff;
+  text-align: left;
+}
+.tweet2 {
+  width: 700px;
+  height: 80px;
+  padding: 5px;
+  border-top: 1px solid #E5E5E5;
+  border-left: 1px solid #E5E5E5;
+  border-right: 1px solid #E5E5E5;
+  background-color:#fff;
+  text-align: left;
+}
+img {
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.left {
+  float: left;
+  margin-top: 3px;
+}
+.right {
+  margin-left:10px;
+  display: inline-block;
+}
+.text{
+  margin-top:-10px;
+  font-size: 12px;
+}
+.tweets{
+  margin-left:400px;
+}
+
+.retweets {
+  background-image: url("/img/retweet.JPG") repeat 0 0;
+}
+button {
+  margin-left:20px;
+  margin-bottom:20px;
+  margin-top:50px;
+}
+input {
+    float: left;
+    margin-left: 400px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.classification {
+    float: left;
+    width: 440px;
+    margin-left: 10px;
+    height: 80px;
+    background: #fff;
+    padding-bottom: 50px;
+    font: 20px;
+}
+.classification2 {
+    float: left;
+    width: 712px;
+    margin-left: 10px;
+    height: 80px;
+    background: #fff;
+    padding-bottom: 50px;
+    font: 20px;
+}
+
+.classification div {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.classification2 div {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.noUiSlider {
+    float: left;
+    width: 300px;
+    margin-left:80px;
+}
+.classification2 .noUiSlider {
+    width: 90%;
+    margin-left: 35px;
+}
+.custom {
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+.custom-main {
+    text-align: center;
+}
+.custom-main input{
+    margin-left: 0px;
+    float: none;
+}
+.section-inline {
+    text-align: center;
+    display: inline-block;
+    width: 720px;
+}
+.spinner img {
+    float: none;
+    width: 120px;
+    height: 120px;
+}
+.prob {
+        color: grey;
+    font-size: 14px;
+
+}

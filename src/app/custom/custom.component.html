@@ -1,0 +1,40 @@
+
+<div class="custom">
+  <div class="custom-main">
+    <input #box (keyup.enter)="onEnter(box.value)">
+    <button class="btn" (click)="onEnter(box.value)">Search by twitter handler</button>
+      <div *ngIf="showSpinner" class="spinner" >
+          <img src="assets/default (1).gif" width="100" height="100">
+      </div>
+  </div>
+
+</div>
+<!--<div *ngIf="ownTwitter">-->
+  <div *ngIf="res">
+  <div  class="section2">
+    <div class="section-inline">
+      <div class="tweet2">
+        <img class="picture" [src]="res.picture" />
+        <!--<div class="right">-->
+        <div class="user">
+          <div class="name"></div>
+          <span class="username"> {{res.name}}</span>
+          <span>@{{res['screen_name']}}</span>
+        </div> <br><br>
+        <div class="text"> {{res.sentence}}</div>
+        <!--</div>-->
+      </div>
+      <div class="classification2" *ngIf="res">
+        <!--<app-chart [result]="result"></app-chart>-->
+        <h2>Classification:</h2>
+        <hr>
+        <div>Sentiment: {{ res.classification}} {{res.emoji}} </div>
+        <div>Arousal: {{ res.arousal }} </div>
+        <!--<div class="noUiSlider">
+          <nouislider [min]="1.25" [max]="8.7" [(ngModel)]="res.arousal" [config]="someKeyboardConfig" [disabled]=true></nouislider>
+        </div>-->
+      </div>
+    </div>
+  </div>
+</div>
+<!--</div>-->
