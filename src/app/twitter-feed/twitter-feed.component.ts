@@ -68,7 +68,7 @@ export class TwitterFeedComponent implements OnInit {
                       res.arousal = "Low ⬇️"
                     }
                 this.prob = res.probability.toFixed(2) * 100 ;
-                res.probability = this.prob;
+                res.probability = parseInt(this.prob);
                 
                 })
     }

@@ -1,11 +1,12 @@
 .section {
-    float: left;
-    width: 450px;
+
+    min-width: 350px;
     text-align: center;
+    margin: auto;
+    max-width: 450px;
     
 }
 .section2 {
-    float: left;
     width: 100%;
     text-align: center;
     margin-right: 30px;
@@ -16,7 +17,7 @@
     height: 100%;
     background: #DCDCDD;
     margin: 10px;
-    float: left;
+    
 }
 .tweet2 {
     /*width: 500px;
@@ -24,11 +25,10 @@
     height: 700px;
     background: #DCDCDD;
     margin: 10px;
-    float: left;
 }
 :host {
   display: block;
-  padding: 0 16px;
+  padding: 0 8px;
   color: #292f33;
   font-size: 14px;
   line-height: 18px;
@@ -50,9 +50,9 @@
     font-weight: bold;
 }
 .tweet {
-  width: 428px;
+  min-width: 350px;
+  max-width: 450px;
   height: 80px;
-  padding: 5px;
   border-top: 1px solid #E5E5E5;
   border-left: 1px solid #E5E5E5;
   border-right: 1px solid #E5E5E5;
@@ -60,14 +60,15 @@
   text-align: left;
 }
 .tweet2 {
-  width: 700px;
   height: 80px;
-  padding: 5px;
+  min-width: 350px;
+  margin: 10px;
   border-top: 1px solid #E5E5E5;
   border-left: 1px solid #E5E5E5;
   border-right: 1px solid #E5E5E5;
   background-color:#fff;
   text-align: left;
+
 }
 img {
     width: 50px;
@@ -109,24 +110,32 @@ input {
     margin-top: 50px;
 }
 .classification {
-    float: left;
-    width: 440px;
-    margin-left: 10px;
+
+
     height: 80px;
     background: #fff;
     padding-bottom: 50px;
     font: 20px;
+    min-width: 350px;
+    max-width: 450px;
+    margin:10px;
+}
+.classification h2 {
+    padding-top:10px;
 }
 .classification2 {
-    float: left;
-    width: 712px;
-    margin-left: 10px;
+
+    margin: 10px;
+    min-width: 350px;
+    max-width: 700px;
     height: 80px;
     background: #fff;
     padding-bottom: 50px;
     font: 20px;
 }
-
+.classification2 h2 {
+    padding-top:10px;
+}
 .classification div {
     font-size: 20px;
     margin-bottom: 10px;
@@ -159,7 +168,7 @@ input {
 .section-inline {
     text-align: center;
     display: inline-block;
-    width: 720px;
+
 }
 .spinner img {
     float: none;
@@ -170,4 +179,8 @@ input {
         color: grey;
     font-size: 14px;
 
+}
+.wrapper {
+    flex-wrap: wrap;
+    display: inline-flex;
 }
